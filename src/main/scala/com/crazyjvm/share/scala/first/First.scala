@@ -1,4 +1,4 @@
-package com.crazyjvm.share.scala
+package com.crazyjvm.share.scala.first
 
 /**
  * Created by chenchao on 14-6-8.
