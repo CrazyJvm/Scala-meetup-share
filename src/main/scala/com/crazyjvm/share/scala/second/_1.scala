@@ -8,13 +8,13 @@ class BankAccount {
 
   def deposit(money : Int){
     account += money
-    println("There is " + account + " yuan in your account!")
+    println(s"There is $account yuan in your account!")
   }
 
   def withdraw(money : Int){
     assert(money <= account, "The money you withdraw should be less than account!")
     account -= money
-    println("There is " + account + " yuan in your account!")
+    println(s"There is $account yuan in your account!")
   }
 
   def balance = account
