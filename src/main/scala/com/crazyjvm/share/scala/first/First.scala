@@ -9,7 +9,7 @@ object First extends App{
   def signum(num : Int) : Int = if (num > 0) 1 else if (num < 0 ) -1 else 0
 
   //2
-  for(i <- 0 to 10) println(i)
+  for(i <- 0 to 10 reverse) println(i)
 
   //3
   def countdown(n : Int){
