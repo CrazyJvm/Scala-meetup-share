@@ -10,6 +10,8 @@ object First extends App{
 
   //2
   for(i <- 0 to 10 reverse) println(i)
+  //or you can just use Range
+  for(j <- Range(10,-1,-1)) println(j)
 
   //3
   def countdown(n : Int){
