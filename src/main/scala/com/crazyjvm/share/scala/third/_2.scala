@@ -5,6 +5,7 @@ package com.crazyjvm.share.scala.third
  */
 object Factorial extends App{
   def doFactorial(n : Int) : Long = {
+    assert(n > 1, "n must larger than 1 !")
     1 to n reduceLeft(_ * _) toLong
     //1.to(n).reduceLeft(_ * _).toLong()
   }
