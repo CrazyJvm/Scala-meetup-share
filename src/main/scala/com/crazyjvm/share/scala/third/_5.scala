@@ -13,4 +13,7 @@ object ListFilter extends App{
   find(xs => xs.filter(_ > 2))
   find(xs => xs.map(2 * _))
 
+  //You can try the following statement and think why?
+  //Though we rarely use `takeWhile`, u'd better know it.
+  find(xs => xs.takeWhile(_ > 1))
 }
