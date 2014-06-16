@@ -9,7 +9,7 @@ import scala.io.Source
 object _2 extends App{
   import com.crazyjvm.share.scala.fourth.Helper._
   val f = new File("your file path")
-  f.read()
+  f.read
 
 }
 

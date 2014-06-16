@@ -7,10 +7,10 @@ import scala.io.Source
  * Created by chenchao on 14-6-15.
  */
 object _1 extends App{
-  import com.crazyjvm.share.scala.fourth.ImplicitContext1._
   //put your code here and you can convert from File to RichFile directly
+  import com.crazyjvm.share.scala.fourth.ImplicitContext1._
   val f = new File("your file path")
-  f.read()
+  f.read
 }
 
 class RichFile(val file : File){
