@@ -3,7 +3,7 @@ package com.crazyjvm.share.scala.second
 /**
  * Created by chenchao on 14-6-9.
  */
-final class Point(val x: Int, val y: Int){
+final private class Point(val x: Int, val y: Int){
   override def toString = s"(x,y) : ($x,$y)"
 }
 
