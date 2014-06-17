@@ -9,7 +9,7 @@ object _4 extends App{
   val l2 = new Line(2.0)
 
   val p = new Pair(l1,l2)
-  println(p.smaller)
+  println(s"smaller => ${p.smaller}")
 }
 
 trait LineOrdering extends Ordering[Line] {
